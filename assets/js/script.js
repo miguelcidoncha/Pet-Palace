@@ -62,37 +62,24 @@ const activeElemOnScroll = function () {
 
 addEventOnElem(window, "scroll", activeElemOnScroll);
 
-/* serviciosbucle
+/* serviciosbucle */
 
 
-let map = L.map("map").setView([49.15, 14.94], 3)
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
-
-L.marker([37.3767, -5.9261]).addTo(map).bindPopup("Sevilla");
-L.marker([38.9168, -6.3451]).addTo(map).bindPopup("Mérida");
-L.marker([37.1740, -3.5994]).addTo(map).bindPopup("Granada");
-L.marker([41.3820, 2.1794]).addTo(map).bindPopup("Barcelona");
-L.marker([52.5145, 13.3855]).addTo(map).bindPopup("Berlín");
-L.marker([50.0884, 14.4230]).addTo(map).bindPopup("Praga");
-L.marker([47.4977, 19.0407]).addTo(map).bindPopup("Budapest");
-L.marker([42.6986, 23.3123]).addTo(map).bindPopup("Sofía");
-
+/*navbar dropdown
 
 function dorpdown() {
 
-    let discoverE = document.getElementById("discover-E");
+
     let discoverS = document.getElementById("discover-S");
 
     discoverE.addEventListener("mouseleave", function () {
-        let dropdownContentE = document.getElementById("dropdown-content-E");
+
         let dropdownContentS = document.getElementById("dropdown-content-S");
         dropdownContentE.style.display = "none";
     });
-}
-
+} */
+/*
 let loadSubPage = function (viewLocation, country) {
     let mainContent = $("#main-content");
 
@@ -127,45 +114,5 @@ function showContent(city) {
         }
     });
 }
-
-let loadAdmin = function (viewLocation) {
-    let mainContent = $("#main-content");
-
-    function loadCallback() {
-        console.log("Contenido cargado exitosamente");
-    }
-
-    mainContent.load(viewLocation, loadCallback);
-};
-
-$(document).ready(function () {
-    $("#admin").click(function () {
-        loadAdmin("Views/admin.html");
-    });
-});
-
-
-let loadNews = function (viewLocation) {
-    let mainContent = $("#main-content");
-
-    function loadCallback() {
-        console.log("Contenido cargado exitosamente");
-    }
-
-    mainContent.load(viewLocation, loadCallback);
-};
-
-$(document).ready(function () {
-    $("#news").click(function () {
-        loadAdmin("Views/newdestination.html");
-    });
-});
-
-function obtenerImagenLocal(nombreImagen) {
-    return localStorage.getItem(nombreImagen);
-}
-
-let adminLoaded = false;
-let blogLoaded = false;
 
 */
