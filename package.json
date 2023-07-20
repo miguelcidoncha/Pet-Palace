@@ -1,0 +1,21 @@
+{
+  "name": "pet-palace",
+  "version": "1.0.0",
+  "description": "![logo de petro Assist](/assets/images/LOGO.png) # Hackaton Factoria-F5  ¡Bienvenido/a al Hackatón Factoria-F5 Summer Edition '23!  En este desafío la empresa  empresa thoughtworks nos ha propuesto el reto de construir una Marketplace, el equipo ha decidido embarcarse en la emocionante misión de construir una plataforma web única y especializado en servicios para mascotas. Nuestra meta es mejorar la vida de los dueños de mascotas, proporcionándoles acceso fácil y confiable a una variedad de servicios para el cuidado y bienestar de sus adorables compañeros peludos.",
+  "main": "jest.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "^9.3.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "jest": "^29.6.1",
+    "jsdom": "^22.1.0"
+  }
+}
