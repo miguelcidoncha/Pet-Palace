@@ -26,6 +26,10 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+
 </head>
 
 <body id="top">
@@ -100,6 +104,9 @@
         <p>Nuestra prioridad es asegurarnos de que tu mascota se sienta amada y segura mientras estás ausente. Mantenemos una comunicación constante contigo para brindarte actualizaciones sobre el bienestar de tu perro y para responder a cualquier pregunta que puedas tener.</p>
        </div>
     </div>
+    <div class="container-map">
+      <div id="map"></div>         
+      </div>
 </main>
 
   <footer class="footer">
@@ -197,6 +204,46 @@
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
+     <script>
+
+var map = L.map('map').setView([41.3851, 2.1734], 13);
+
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+
+          var popupData = [
+      { latlng: [41.3851, 2.1734], content: "Paseando y disfrutando Tlf: 623964735 Precio aprox: 20€" },
+      { latlng: [41.4001, 2.1859], content: "Caminando por el mundo Tlf: 689324735 Precio aprox: 18€" },
+      { latlng: [41.3879, 2.1359], content: "Corriendo y entrenando Tlf: 687434735 Precio aprox: 20€" },
+      { latlng: [41.3534, 2.1833], content: "Entrenamiento animal Tlf: 6994332473 Precio aprox: 18€" },
+      { latlng: [41.3939, 2.1233], content: "Caminando Barcelona Tlf: 68954305 Precio aprox: 20€" },
+      { latlng: [41.4510, 2.1977], content: "Paseo contento Tlf: 689324505 Precio aprox: 28€" },
+      { latlng: [41.3658, 2.1195], content: "Camino y conozco Tlf: 6974347304 Precio aprox: 10€" },
+      { latlng: [41.3958, 2.1595], content: "Me encanta caminar Tlf: 689324505 Precio aprox: 18€" },
+    ];
+
+    function addPopupsToMap(map, popupData) {
+      popupData.forEach((data) => {
+        var popup = L.popup()
+          .setLatLng(data.latlng)
+          .setContent(data.content)
+          .addTo(map); 
+      });
+
+      popupData.forEach((data) => {
+        map.openPopup(data.content, data.latlng); 
+      });
+    }
+
+    addPopupsToMap(map, popupData);
+
+     </script>
 
 </body>
 

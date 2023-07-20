@@ -26,6 +26,10 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+
 </head>
 
 <body id="top">
@@ -100,6 +104,9 @@
         <p>Además de una experiencia de peluquería de primera clase, también ofrecemos un ambiente divertido y seguro para socializar con otros perros. Tu peludo amigo disfrutará de un tiempo de calidad mientras se relaja y se divierte en nuestro salón canino.</p>
         <p>Confía en nosotros para mantener a tu perro con un aspecto impecable y saludable. ¡Ven a visitarnos y experimenta la diferencia en el cuidado de tu mejor amigo en nuestra peluquería canina! Tu mascota te lo agradecerá, y nosotros estaremos encantados de atender a tu peludo con amor y atención.</p>
        </div>
+    </div>
+    <div class="container-map">
+      <div id="map"></div>         
     </div>
 </main>
 
@@ -198,6 +205,47 @@
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
+  <script>
+
+var map = L.map('map').setView([41.3851, 2.1734], 13);
+
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+
+      var popupData = [
+      { latlng: [41.3851, 2.1734], content: "Super Mascotas Peluquería Tlf: 623964735 Precio aprox: 30€" },
+      { latlng: [41.4001, 2.1859], content: "Mascotas Contentas Estetica Tlf: 689324735 Precio aprox: 38€" },
+      { latlng: [41.3879, 2.1359], content: "Perritos Felices Peluquería Tlf: 687434735 Precio aprox: 40€" },
+      { latlng: [41.3534, 2.1833], content: "Pelitos peinados Estetica Tlf: 6994332473 Precio aprox: 58€" },
+      { latlng: [41.3939, 2.1233], content: "Perros felices Tlf: 68954305 Precio aprox: 60€" },
+      { latlng: [41.4510, 2.1977], content: "Contentos Felinos Tlf: 689324505 Precio aprox: 68€" },
+      { latlng: [41.3658, 2.1195], content: "Dulces Perritos Tlf: 6974347304 Precio aprox: 50€" },
+      { latlng: [41.3958, 2.1595], content: "Alegres Pelitos Tlf: 689324505 Precio aprox: 68€" },
+    ];
+
+    function addPopupsToMap(map, popupData) {
+      popupData.forEach((data) => {
+        var popup = L.popup()
+          .setLatLng(data.latlng)
+          .setContent(data.content)
+          .addTo(map); 
+      });
+
+      popupData.forEach((data) => {
+        map.openPopup(data.content, data.latlng); 
+      });
+    }
+
+    addPopupsToMap(map, popupData);
+
+  </script>
+
 
 </body>
 

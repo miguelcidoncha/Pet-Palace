@@ -526,3 +526,16 @@ background-repeat: no-repeat;
     backdrop-filter: blur(2px);
     gap: 20px;
 }
+
+.container-map{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+}
+
+
+#map { 
+  height: 380px; 
+  width: 680px;
+}
