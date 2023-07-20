@@ -48,7 +48,7 @@ Algunas de nuestras funcionalidades principales incluyen:
 
 - Clona o descarga el repositorio del proyecto en tu máquina local.
 ```
-https://github.com/miguelcidoncha/Pet-Palace.git 
+https://github.com/miguelcidoncha/PetPro-Assist.git 
 ```
 - Abre el archivo index.html en tu navegador web preferido y disfruta de PetPro Assist.
 
