@@ -14,15 +14,23 @@ En este repositorio, encontrarás el código fuente de nuestro proyecto y el pro
 ¡Esperamos que te unas a nuestro equipo y contribuyas a hacer realidad este emocionante proyecto! Siéntete libre de explorar el código, hacer sugerencias y ayudarnos a llevar nuestro marketplace para servicios de mascotas a un nivel superior.
 
 ## Organización
-Para la organización de este proyecto, comenzamos por comprender el sitio web que se esperaba crear. Realizamos una lluvia de ideas y posteriormente creamos un wireframe para visualizar cómo seria nuestra marketplace.
+En nuestro emocionante viaje para crear esta increíble marketplace, comenzamos sumergiéndonos en la comprensión del sitio web que anhelábamos construir. Realizamos una lluvia de ideas y posteriormente dimos vida a nuestras visiones mediante un detallado wireframe, visualizando cómo sería nuestra plataforma en acción.
 
-Una vez que tuvimos una idea clara de la dirección del proyecto, procedimos a dividir las tareas y organizar nuestro trabajo utilizando la metodología ágil Kanban. Donde utilizamos Trello para gestionar nuestras tareas y mantener un seguimiento de los avances.
+Para garantizar una organización óptima y un trabajo fluido, adoptamos la metodología ágil Kanban. Federico asumió el rol de Product Owner, mientras que Nuria ejerció como Scrum Master. Como equipo, nos dividimos en developers y nos asignamos tareas utilizando Trello, una herramienta esencial que nos permitió gestionar nuestras responsabilidades y seguir el progreso de cada etapa.
 
-Creamos un repositorio donde almacenamos el código y nos dividimos por componentes para comenzar a trabajar de manera colaborativa. Cada miembro del equipo se hizo responsable de diferentes partes de la aplicación y, a medida que avanzábamos, nos manteníamos en constante comunicación para garantizar que todos estuviéramos alineados en los objetivos y plazos.
+Nuestro repositorio se convirtió en nuestro tesoro codificado, y como un grupo cohesionado, nos enfocamos en desarrollar la aplicación de manera iterativa y progresiva. Cada miembro aportó sus habilidades únicas a diferentes partes de la plataforma, manteniéndonos en constante comunicación para asegurarnos de que todos estuviéramos alineados con los objetivos y plazos.
 
-Siguiendo la filosofía ágil, desarrollamos nuestra aplicación de manera iterativa y progresiva, agregando funcionalidades y refinando detalles a medida que avanzábamos en el proceso. Celebramos reuniones periódicas de retrospectiva para analizar qué funcionaba bien y qué podíamos mejorar, lo que nos permitió hacer ajustes en el enfoque cuando fue necesario.
+Con la filosofía ágil en mente, celebramos reuniones periódicas de retrospectiva para reflexionar sobre nuestros avances. Aprendimos de nuestros aciertos y ajustamos el enfoque cuando lo necesitamos, lo que nos permitió superar desafíos y alcanzar resultados extraordinarios.
 
-Al implementar las metodologías ágiles y utilizar Trello como herramienta de gestión, pudimos mantenernos organizados, asegurarnos de que cada tarea fuera abordada adecuadamente y adaptarnos rápidamente a los cambios y requerimientos del proyecto. Esta colaboración y enfoque ágil nos permitieron construir la aplicación de manera eficiente y lograr resultados satisfactorios en cada etapa del proceso.
+Utilizamos Leaflet como nuestra biblioteca para mapas, un recurso esencial para mostrar los servicios ofrecidos por categoría en diferentes ubicaciones. De esta manera, los clientes pueden encontrar fácilmente los servicios que necesitan según su ubicación, ¡haciendo que su experiencia en la plataforma sea excepcional!
+
+Estamos increíblemente orgullosos de nuestro proyecto y del equipo que formamos. Cada uno de nosotros ha contribuido con dedicación y pasión, lo que se refleja en el resultado final de nuestra plataforma. Y no olvidemos mencionar: Trello fue nuestro fiel aliado en la gestión, llevándonos de manera ágil y efectiva hasta el emocionante lanzamiento de nuestra marketplace.
+
+Gracias a todos por esta emocionante travesía juntos. ¡El futuro se ve brillante y estamos ansiosos por seguir creciendo y mejorando en cada paso del camino!
+
+Aquí un pedazo de nuestra organización en el trello, donde teniamos las historias de usuarios, información de los participantes, herramientas y podiamos ver en que estaba trabajando cada participante.
+
+![trello](./assets/images/trello.png)
 
 ## Funcionalidades Principales
 Algunas de nuestras funcionalidades principales incluyen:
@@ -73,11 +81,12 @@ npm run test
 [Imagen del figma prototipo desktop](/assets/images/version-desktop.png)
 
 ## Test 
+
 ![Test realizados](/assets/images/test.png)
 
 
 ## Colaboradores
-| [<img src="https://avatars.githubusercontent.com/u/109661844?v=4"><br><sub>Alba</sub>](https://github.com/Dafnay)| [<img src="https://avatars.githubusercontent.com/u/126071057?v=4"><br><sub>Manuel</sub>](https://github.com/Manuraptor) |  [<img src="https://avatars.githubusercontent.com/u/75427952?v=4" width=115><br><sub>Carmen</sub>](https://github.com/carmenb2020) |  [<img src="https://avatars.githubusercontent.com/u/132567398?v=4" width=115><br><sub>Miguel</sub>](https://github.com/miguelcidoncha) |  [<img src="https://avatars.githubusercontent.com/u/107352744?v=4" width=115><br><sub>Monica</sub>](https://github.com/mgblanco10) |  [<img src="https://avatars.githubusercontent.com/u/122879094?v=4" width=115><br><sub>Federico</sub>](https://github.com/Federicojaviermartino) |[<img src="https://avatars.githubusercontent.com/u/126880005?v=4" width=115><br><sub>Nuria</sub>](https://github.com/NuriaPerezBravo) |[<img src="https://avatars.githubusercontent.com/u/126071398?v=4" width=115><br><sub>Ikram</sub>](https://github.com/ikramadam) |[<img src="https://avatars.githubusercontent.com/u/126791633?v=4" width=115><br><sub>Anderson</sub>](https://github.com/A3C2112) |
+| [<img src="https://avatars.githubusercontent.com/u/109661844?v=4" width=150><br><sub>Alba</sub>](https://github.com/Dafnay)| [<img src="https://avatars.githubusercontent.com/u/75427952?v=4" width=115><br><sub>Carmen</sub>](https://github.com/carmenb2020) |  [<img src="https://avatars.githubusercontent.com/u/132567398?v=4" width=115><br><sub>Miguel</sub>](https://github.com/miguelcidoncha) |  [<img src="https://avatars.githubusercontent.com/u/107352744?v=4" width=115><br><sub>Monica</sub>](https://github.com/mgblanco10) |  [<img src="https://avatars.githubusercontent.com/u/122879094?v=4" width=115><br><sub>Federico</sub>](https://github.com/Federicojaviermartino) |[<img src="https://avatars.githubusercontent.com/u/126880005?v=4" width=115><br><sub>Nuria</sub>](https://github.com/NuriaPerezBravo) |[<img src="https://avatars.githubusercontent.com/u/126071398?v=4" width=115><br><sub>Ikram</sub>](https://github.com/ikramadam) |[<img src="https://avatars.githubusercontent.com/u/126791633?v=4" width=115><br><sub>Anderson</sub>](https://github.com/A3C2112) | [<img src="https://avatars.githubusercontent.com/u/126071057?v=4" width=115><br><sub>Manuel</sub>](https://github.com/Manuraptor) | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |:---: |
 
 
