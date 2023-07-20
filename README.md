@@ -50,7 +50,7 @@ Algunas de nuestras funcionalidades principales incluyen:
 ```
 https://github.com/miguelcidoncha/Pet-Palace.git 
 ```
-- Abre el archivo index.html en tu navegador web preferido y disfruta de Petro assist.
+- Abre el archivo index.html en tu navegador web preferido y disfruta de PetPro Assist.
 
 ### Para los tests
 - Una vez clonado el repositorio en la terminal de tu editor de código con el proyecto.
@@ -71,6 +71,9 @@ npm run test
 [Imagen del figma prototipo movil](/assets/images/version-mobil.png)
 <br>
 [Imagen del figma prototipo desktop](/assets/images/version-desktop.png)
+
+## Test 
+![Test realizados](/assets/images/test.png)
 
 
 ## Colaboradores
