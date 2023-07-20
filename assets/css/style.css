@@ -589,12 +589,12 @@ body {
       }
 
       .header {
-        --color: var(--white);
+        color: #5BF4EE;
         background: none;
       }
 
       .header.active {
-        --color: var(--white);
+        color: aqua;
       }
 
       .header .logo,
