@@ -1,8 +1,27 @@
+
+@media screen and (min-width: 575px) {
+    .footer-top.section {
+        flex-direction: row; 
+        align-items: center;
+    }
+
+    .footer-brand,
+    .footer-list {
+        padding: 1.25rem; 
+    }
+
+    .contact-item,
+    .social-list li {
+        margin-bottom: .625rem;
+    }
+}
+
 footer {
-    background-image: url(assets/images/footer-bg.jpg);
+    background-image: url(assets/images/fondo-footer.png);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 #footer-logo {
@@ -19,8 +38,13 @@ footer {
     flex: 1;
 }
 
+.social-list {
+    font-size: 1.25rem;
+}
+
 .footer-list {
     flex: 1;
+    margin-top: 3%;
 }
 
 .footer-brand,
