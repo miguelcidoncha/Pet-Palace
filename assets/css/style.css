@@ -319,6 +319,7 @@ body {
   font-family: var(--ff-carter_one);
   font-size: 3rem;
 }
+
 .imgLogo {
   margin-top: 30px;
   width: 200px;
@@ -451,6 +452,84 @@ body {
   transform: translateY(-10px);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  background-image: url(../images/fondo-footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#footer-logo {
+  height: 5rem;
+}
+
+.footer-top.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-brand {
+  flex: 1;
+}
+
+.social-list {
+  font-size: 2.5rem;
+}
+
+.footer-list {
+  flex: 1;
+  margin-top: 3%;
+}
+
+.footer-brand,
+.footer-list {
+  padding: 1.25rem;
+}
+
+.contact-list,
+.social-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-item,
+.social-list li {
+  margin-bottom: .625rem;
+}
+
+.footer-list ul {
+  list-style-type: none;
+}
+
+.container-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2%;
+}
+
+.copyright{
+  margin-bottom: 2%;
+}
+
+
 /*-----------------------------------*\
     #MEDIA QUERIES
   \*-----------------------------------*/
@@ -499,6 +578,21 @@ body {
     padding-inline-start: 20px;
     justify-content: flex-start;
     align-items: center;
+  }
+
+  .footer-top.section {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer-brand,
+  .footer-list {
+    padding: 1.25rem;
+  }
+
+  .contact-item,
+  .social-list li {
+    margin-bottom: .625rem;
   }
 
   /**
