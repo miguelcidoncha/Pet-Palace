@@ -1,10 +1,10 @@
-![logo de petro Assist](/assets/images/LOGO.png)
+![logo de PetPro Assist](/assets/images/LOGO.png)
 # Hackaton Factoria-F5 
 ¡Bienvenido/a al Hackatón Factoria-F5 Summer Edition '23!  En este desafío la empresa  empresa thoughtworks nos ha propuesto el reto de construir una Marketplace, el equipo ha decidido embarcarse en la emocionante misión de construir una plataforma web única y especializado en servicios para mascotas. Nuestra meta es mejorar la vida de los dueños de mascotas, proporcionándoles acceso fácil y confiable a una variedad de servicios para el cuidado y bienestar de sus adorables compañeros peludos.
 
 
-## Petro assist
-¡Bienvenido/a a nuestro proyecto "Petro assist" para servicios de mascotas! donde ofrecemos una variedad de servicios para mascotas, incluyendo peluquería, veterinario, spa, paseadoras, guardería y mucho más. Nuestro público objetivo son los dueños de mascotas que buscan soluciones y servicios de calidad para el cuidado de sus compañeros peludos.
+## PetPro Assist
+¡Bienvenido/a a nuestro proyecto "PetPro Assist" para servicios de mascotas! donde ofrecemos una variedad de servicios para mascotas, incluyendo peluquería, veterinario, spa, paseadoras, guardería y mucho más. Nuestro público objetivo son los dueños de mascotas que buscan soluciones y servicios de calidad para el cuidado de sus compañeros peludos.
 
 ## Construyendo Nuestro Marketplace
 En este repositorio, encontrarás el código fuente de nuestro proyecto y el proceso de desarrollo durante el hackatón F5. Hemos modelado cuidadosamente los anuncios y definido los atributos esenciales para una experiencia de usuario intuitiva y satisfactoria. A medida que avanzamos, continuaremos añadiendo más funcionalidades emocionantes para mejorar aún más la experiencia de nuestros usuarios.
@@ -29,6 +29,7 @@ Algunas de nuestras funcionalidades principales incluyen:
 - Listado de anuncios de servicios para mascotas.
 - Detalles completos de cada servicio ofrecido.
 - Búsqueda personalizada por tipo de servicio, mapa con ubicación y otros criterios relevantes.
+- Búsqueda por servicio a través de ubicación geográfica para hacer el match con el profesional seleccionado.
 
 
 ## :hammer:Tecnologías y Herramientas Utilizadas
@@ -73,7 +74,7 @@ npm run test
 
 
 ## Colaboradores
-| [<img src="https://avatars.githubusercontent.com/u/109661844?v=4"><br><sub>Alba</sub>](https://github.com/Dafnay)| [<img src="https://avatars.githubusercontent.com/u/126071057?v=4"><br><sub>Manuel</sub>](https://github.com/Manuraptor) |  [<img src="https://avatars.githubusercontent.com/u/75427952?v=4" width=115><br><sub>Carmen</sub>](https://github.com/carmenb2020) |  [<img src="https://avatars.githubusercontent.com/u/132567398?v=4" width=115><br><sub>Miguel</sub>](https://github.com/miguelcidoncha) |  [<img src="https://avatars.githubusercontent.com/u/107352744?v=4" width=115><br><sub>Monica</sub>](https://github.com/mgblanco10) |  [<img src="https://avatars.githubusercontent.com/u/122879094?v=4" width=115><br><sub>Federico</sub>](https://github.com/Federicojaviermartino) |[<img src="https://avatars.githubusercontent.com/u/122879094?v=4" width=115><br><sub>Federico</sub>](https://github.com/Federicojaviermartino) |[<img src="https://avatars.githubusercontent.com/u/122879094?v=4" width=115><br><sub>Federico</sub>](https://github.com/Federicojaviermartino) |[<img src="https://avatars.githubusercontent.com/u/122879094?v=4" width=115><br><sub>Federico</sub>](https://github.com/Federicojaviermartino) |
+| [<img src="https://avatars.githubusercontent.com/u/109661844?v=4"><br><sub>Alba</sub>](https://github.com/Dafnay)| [<img src="https://avatars.githubusercontent.com/u/126071057?v=4"><br><sub>Manuel</sub>](https://github.com/Manuraptor) |  [<img src="https://avatars.githubusercontent.com/u/75427952?v=4" width=115><br><sub>Carmen</sub>](https://github.com/carmenb2020) |  [<img src="https://avatars.githubusercontent.com/u/132567398?v=4" width=115><br><sub>Miguel</sub>](https://github.com/miguelcidoncha) |  [<img src="https://avatars.githubusercontent.com/u/107352744?v=4" width=115><br><sub>Monica</sub>](https://github.com/mgblanco10) |  [<img src="https://avatars.githubusercontent.com/u/122879094?v=4" width=115><br><sub>Federico</sub>](https://github.com/Federicojaviermartino) |[<img src="https://avatars.githubusercontent.com/u/126880005?v=4" width=115><br><sub>Nuria</sub>](https://github.com/NuriaPerezBravo) |[<img src="https://avatars.githubusercontent.com/u/126071398?v=4" width=115><br><sub>Ikram</sub>](https://github.com/ikramadam) |[<img src="https://avatars.githubusercontent.com/u/126791633?v=4" width=115><br><sub>Anderson</sub>](https://github.com/A3C2112) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |:---: |
 
 
