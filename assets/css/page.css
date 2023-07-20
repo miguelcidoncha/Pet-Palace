@@ -514,11 +514,16 @@ background-repeat: no-repeat;
     height: auto;
 }
 
+#image-container {
+  width: 100%;
+  height: auto;
+}
+
 .page-text{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 30%;
+    width: 50%;
     height: auto; 
     font-size: large;   
     font-weight: 600;
