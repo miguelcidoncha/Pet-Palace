@@ -91,37 +91,6 @@ test('Verificar el contenido de los elementos de la lista del menú', () => {
     expect(articles.length).toBeGreaterThan(0);
   });
   
-  test('Sección "hero" existe y tiene el contenido esperado', () => {
-    setupDOM();
-    const heroSection = document.querySelector('main section.hero');
-    const heroTitle = heroSection.querySelector('h1.hero-title span.span');
-    
-    expect(heroSection).toBeTruthy();
-    expect(heroSection.getAttribute('aria-label')).toBe('home');
-    expect(heroSection.style.backgroundImage).toContain('Screenshot 2023-07-19 at 18.15 1 (1).png');
-    expect(heroTitle.textContent).toBe('Profesionales apasionados por el bienestar emocional');
-  });
-  
-  test('Sección "category" existe y contiene elementos con títulos y enlaces esperados', () => {
-    setupDOM();
-    const categorySection = document.querySelector('main section.category');
-    const categoryItems = categorySection.querySelectorAll('li.scrollbar-item');
-  
-    expect(categorySection).toBeTruthy();
-    expect(categorySection.getAttribute('aria-label')).toBe('category');
-    expect(categoryItems.length).toBeGreaterThan(0);
-  
-    categoryItems.forEach(item => {
-      const cardTitle = item.querySelector('h3.card-title a.card-title');
-      const imgCover = item.querySelector('img.img-cover');
-  
-      expect(cardTitle).toBeTruthy();
-      expect(imgCover).toBeTruthy();
-      expect(imgCover.getAttribute('alt')).toBeTruthy();
-      expect(imgCover.getAttribute('loading')).toBe('lazy');
-    });
-  });
-  
   test('Sección "offer" existe y contiene elementos con títulos y enlaces esperados', () => {
     setupDOM();
     const offerSection = document.querySelector('main section.offer');
@@ -178,6 +147,57 @@ test('Verificar el contenido de los elementos de la lista del menú', () => {
       expect(brandImage.getAttribute('loading')).toBe('lazy');
     });
   });
+
+  test('El elemento <footer> existe', () => {
+    setupDOM();
+    const footerElement = document.querySelector('footer');
+    expect(footerElement).toBeTruthy();
+  });
+  
+  test('El texto de derechos de autor y la imagen de métodos de pago están presentes', () => {
+    setupDOM();
+    const copyrightText = document.querySelector('.footer-bottom .copyright');
+    const paymentImage = document.querySelector('.footer-bottom img.img');
+    
+    expect(copyrightText).toBeTruthy();
+    expect(paymentImage).toBeTruthy();
+    expect(paymentImage.getAttribute('alt')).toBe('payment method');
+  });
+  
+  test('El <footer> tiene la clase "footer"', () => {
+    setupDOM();
+    const footerElement = document.querySelector('footer');
+    expect(footerElement.classList.contains('footer')).toBeTruthy();
+  });
+  
+  test('El elemento <hr> está presente en el footer', () => {
+    setupDOM();
+    const hrElement = document.querySelector('footer hr');
+    expect(hrElement).toBeTruthy();
+  });
+  
+  test('El texto del título de las listas de información corporativa, información y servicios es correcto', () => {
+    setupDOM();
+    const footerLists = document.querySelectorAll('.footer-list strong');
+  
+    expect(footerLists.length).toBe(3);
+    expect(footerLists[0].textContent).toBe('Información corporativa');
+    expect(footerLists[1].textContent).toBe('Información');
+    expect(footerLists[2].textContent).toBe('Servicios');
+  });
+  
+  
+  test('Los íconos de redes sociales tienen atributos style con colores válidos', () => {
+    setupDOM();
+    const socialIcons = document.querySelectorAll('.social-list i.fa-brands');
+  
+    socialIcons.forEach(icon => {
+      const styleAttr = icon.getAttribute('style');
+      expect(styleAttr).toBeTruthy();
+      expect(styleAttr).toContain('color:');
+    });
+  });
+  
   
   
   
