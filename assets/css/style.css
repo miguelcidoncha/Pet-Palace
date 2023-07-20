@@ -342,7 +342,6 @@ body {
   position: absolute;
   top: -8px;
   right: -10px;
-  background-color: var(--portland-orange);
   color: var(--white);
   font-size: var(--fs-8);
   min-width: 18px;
@@ -589,12 +588,12 @@ body {
       }
 
       .header {
-        --color: var(--white);
+        color: #5BF4EE;
         background: none;
       }
 
       .header.active {
-        --color: var(--white);
+        color: #5BF4EE;
       }
 
       .header .logo,
